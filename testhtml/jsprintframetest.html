@@ -1,0 +1,20 @@
+<script>
+function test1() {
+   jsPrintSetup.setPrinter('PDFCreator');
+   jsPrintSetup.setSilentPrint(0);
+   jsPrintSetup.setOption('headerStrCenter', 'bla bla main');
+   jsPrintSetup.setOption('headerStrRight', '');
+// print current window with all frames in it
+  //  jsPrintSetup.printWindow(window);
+// print desired frame
+   jsPrintSetup.printWindow(window.frames[0]);
+   jsPrintSetup.setSilentPrint(0);
+}
+</script>
+ </head>
+ <body>
+<iframe name="test" src="frame.html"></iframe>
+<a href="javascript: test1();">Test</a>
+<h4> Top Level Page Content </h4>
+ </body>
+</html>

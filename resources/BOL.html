@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bill Of Lading</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+		<link rel="stylesheet" type="text/css" href="https://dintelliship2.engagetechnology.com/static/css/bol.css" media="screen"/>
+
+	</head>
+
+	<body>
+
+		<button id="after-print" class="DoNotPrint green" style="position: relative; float: right" onclick="document.getElementById('frm_next').submit();">CLICK AFTER PRINT</button>
+
+		<div id="pageframe">
+			<div id="header">
+				<!--<img id="logo" src="/static/branding/engage/images/header/engage-dark-logo.png" valign=top height="31">-->
+				<font color="#000000" size="2" face="Arial, Helvetica, sans-serif">
+				<b>&nbsp;&nbsp;&nbsp;&nbsp;www.lojistic.com<br>&nbsp;&nbsp;&nbsp;&nbsp;866-279-8663</b>
+			</div>
+
+			<div id="title">
+				<span id="ts1">Date: 03/31/2015</span>
+				<span id="ts2">BILL OF LADING</span>
+				<span id="ts3">BOL#:100320323</span>
+			</div>
+
+			<div id="addresses">
+				<b>SHIP FROM</b>
+				<table>
+					<tbody>
+						<tr>
+							<td class="first">Company:</td>
+							<td class="second">ACME, Inc. - Fremont</td>
+						</tr>
+						<tr>
+							<td>Contact:</td>
+							<td>TEST ACME</td>
+						</tr>
+						<tr>
+							<td>Address 1:</td>
+							<td>47533 WESTINGHOUSE DR</td>
+						</tr>
+						<tr>
+							<td>Address 2:</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>City/State/Zip</td>
+							<td>FREMONT, CA 94539</td>
+						</tr>
+						<tr>
+							<td>Phone:</td>
+							<td>510-623-6996</td>
+						</tr>
+					</tbody>
+				</table>
+				<b>SHIP TO</b>
+				<table>
+					<tbody>
+						<tr>
+							<td class="first">Company:</td>
+							<td class="second">TESTJF</td>
+						</tr>
+						<tr>
+							<td>Contact:</td>
+							<td>John Smtih</td>
+						</tr>
+						<tr>
+							<td>Address 1:</td>
+							<td>37 Woodleaf</td>
+						</tr>
+						<tr>
+							<td>Address 2:</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>City/State/Zip</td>
+							<td>Irvine, CA 92614</td>
+						</tr>
+						<tr>
+							<td>Phone:</td>
+							<td>5555555555</td>
+						</tr>
+					</tbody>
+				</table>
+				<b>BILL TO</b>
+				<table>
+					<tbody>
+						<tr>
+							<td class="first">Name</td>
+							<td class="second">EFreight Solutions</td>
+						</tr>
+						<tr>
+							<td>Contact:</td>
+							<td><br/></td>
+						</tr>
+						<tr>
+							<td>Address 1:</td>
+							<td>975 Cobb Place Blvd 109</td>
+						</tr>
+						<tr>
+							<td>Address 2:</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>City/State/Zip</td>
+							<td>Kennesaw, GA 30144</td>
+						</tr>
+						<tr>
+							<td>Phone:</td>
+							<td>800-336-3346<br/></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div id="carrier_info">
+				<div id="ci_1" style="position: relative;">
+					Carrier Name: Best Overnite<br/>
+
+					PRO#: 100320323<br/>
+
+
+
+
+
+					<br/><span style="position: absolute;bottom: 17px;">Pickup Terminal: SJ, 800-336-3346</span><br/>
+					<span style="position: absolute;bottom: 0;">Delivery Terminal: LBCH, 626-256-0550</span>
+				</div>
+				<div id="ci_2">
+					<b>Freight Charge Terms:</b><br/>
+						<span>Pre-paid <input type=checkbox /></span>
+						<span>Collect <input type=checkbox /></span>
+						<span>3rd Party <input type=checkbox CHECKED/></span>
+				</div>
+				<div id="ci_3">
+					<b>Pickup Window:</b>
+				</div>
+				<div id="ci_4">
+					<b>Special Services:</b>
+					<table border="0" cellSpacing="0" cellPadding="0" style="padding-top: 10px; width: 100%">
+
+						<tr>
+
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="po_num">
+				 ACTL WGT 1000
+			</div>
+			<div id="customer_order">
+				<b>CUSTOMER ORDER / CARRIER INFORMATION</b>
+				<table>
+					<thead>
+						<tr>
+							<th>Item</th>
+							<th>Product Description</th>
+							<th>NMFC#</th>
+							<th>Class</th>
+							<th># Units</th>
+							<th>Weight</th>
+						</tr>
+					</thead>
+					<tfoot>
+						<tr>
+							<td colspan="4">Grand Total</td>
+							<td>1</td>
+							<td>1000</td>
+						</tr>
+					</tfoot>
+					<tbody>
+						<!-- Product Entries-->
+
+						<tr>
+							<td>1</td>
+							<td></td>
+							<td></td>
+							<td>0</td>
+							<td>1&nbsp;Box</td>
+							<td>1000</td>
+						</tr>
+
+						<tr>
+							<td>2</td>
+							<td></td>
+							<td></td>
+							<td>0</td>
+							<td>1&nbsp;</td>
+							<td>0</td>
+						</tr>
+
+						<!-- Product Entries-->
+					</tbody>
+				</table>
+			</div>
+			<div id="note">
+				<b>NOTE Liability Limitations for loss or damage in this
+					shipment may be applicable. See 49 U.S.C - Sec. 14706(c)(1)(A) and (B).</b>
+			</div>
+			<div id="received">
+				RECEIVED, subject to individually determined rates or contracts
+				that have been agreed upon in writing between the carrier and
+				shipper, if applicable, otherwise to the rates, classifications
+				and rules that have been established by the carrier and are
+				available to the shipper, on request, and to all applicable
+				state and federal regulations.
+			</div>
+			<div class="signatures" id="sig1">
+				<b>SHIPPER SIGNATURE / DATE</b><br/>
+				This is to certify that the above named materials are properly
+				classified, described, packaged, marked and labeled, and are in
+				proper condition for transportation according to the applicable
+				regulations of the U.S. Department of Transportation.
+			</div>
+			<div class="signatures" id="sig2">
+				<div>
+					<b>Trailer Load</b><br/><br/>
+					<input type="checkbox"/> By Shipper<br/><br/>
+					<input type="checkbox"/> By Driver<br/><br/>
+				</div>
+				<div>
+					<b>Freight Counted</b><br/><br/>
+					<input type="checkbox"/> By Shipper<br/><br/>
+					<input type="checkbox"/> By Driver/Pallets said to be contain<br/><br/>
+					<input type="checkbox"/> By Driver/Pieces<br/><br/>
+				</div>
+			</div>
+			<div class="signatures" id="sig3">
+				<b>CARRIER SIGNATURE / PICKUP DATE</b>
+				Carrier acknowledges receipt of packages and required placards.
+				Carrier certifies emergency response information was made
+				available and/or carrier has the U.S. Department of Transportation emergency response
+				guidebook or equivalent documentation in the vehicle.
+				<span>Property described above is received in good order, except as noted.</span>
+			</div>
+			<div class="comments" id="com1">
+				<b>Shipper Comments:</b><br/>
+
+			</div>
+			<div class="comments" id="com2">
+				<b>Carrier Comments:</b>
+			</div>
+		</div>
+
+		<form id="frm_next" action="/customer/order/ajax" method="post">
+			<input type="hidden" name="ajax" value="1"/>
+			<input type="hidden" name="type" value="HTML"/>
+
+
+
+			<input type="hidden" id="coid" name="coid" value="8F2Z0C7YHRG07"/>
+			<input type="hidden" id="shipmentid" name="shipmentid" value="8F2Z0C82FPQA9"/>
+			<input type="hidden" id="bolcountthermal" name="bolcountthermal" value=""/>
+		</form>
+		<canvas id="hidden_screenshot" style="display:none;"></canvas>
+	</body>
+
+</html>

@@ -1,0 +1,13 @@
+{
+  "title": "Intelliship Add-on",
+  "name": "printintelliship",
+  "version": "0.0.1",
+  "description": "Helps inelliship silently print.",
+  "main": "index.js",
+  "author": "Kyly Vass",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,17 @@
+<script>
+function test() {
+   jsPrintSetup.setPrinter('PDFCreator');
+   jsPrintSetup.setSilentPrint(1);
+   jsPrintSetup.setOption('headerStrCenter', 'bla bla frame');
+   jsPrintSetup.setOption('headerStrRight', '');
+   // here window is current frame!
+   jsPrintSetup.printWindow(window);
+   jsPrintSetup.setSilentPrint(0);
+}
+</script>
+ </head>
+ <body>
+<a href="javascript: test();">Test</a>
+  <h4> Frame Content </h4>
+ </body>
+</html>
