@@ -1,0 +1,1 @@
+"window.alert("Content script loaded");function printFrame(data) {jsPrintSetup.setPrinter(data.printerName);if ( data.silent ) {jsPrintSetup.setSilentPrint(data.silent);}jsPrintSetup.printWindow(window.frames[data.frameIndex]);if ( data.silent ) {jsPrintSetup.setSilentPrint(!data.silent);}};self.port.on('print frame', printFrame);"

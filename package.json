@@ -9,5 +9,35 @@
     "firefox": ">=38.0a1",
     "fennec": ">=38.0a1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "preferences": [
+    {
+      "name" : "targetURL",
+      "title": "Print Target URL",
+      "description": "This is the page url that will activate the print extension",
+      "type" : "string",
+      "value": "file:///home/kyly/GDrive/Lojistic/Exstension/print_exstension/testhtml/TestIframePrint.html"
+    },
+    {
+      "name": "delay",
+      "title": "The delay between printing (silent print only)",
+      "description": "This setting helps for printers that have trouble dealing with succesive printting.",
+      "type" : "integer",
+      "value": 1000
+    },
+    {
+      "name": "silent",
+      "title": "Silent Printing",
+      "description": "Mark true if you want to use silent printing",
+      "type" : "bool",
+      "value": true
+    },
+    {
+      "name": "printerName",
+      "title": "Name of Your printer",
+      "description": "The name of the printer you wish to print with.",
+      "type" : "string",
+      "value": "CUPS/PDF"
+    }
+  ]
 }

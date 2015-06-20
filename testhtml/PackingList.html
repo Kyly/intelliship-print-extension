@@ -91,7 +91,7 @@
 
 	<body>
 
-		<button id="after-print" class="DoNotPrint green" style="position: relative; float: right" onclick="CheckAfterPackingListPrintActivities()">CLICK AFTER PRINT</button>
+		<!-- <button id="after-print" class="DoNotPrint green" style="position: relative; float: right" onclick="CheckAfterPackingListPrintActivities()">CLICK AFTER PRINT</button> -->
 
 		<p class=MsoNormal>
 		<![if !vml]>
@@ -387,17 +387,4 @@
 		<canvas id="hidden_screenshot" style="display:none;"></canvas>
 	</body>
 
-	<script>
-	$(document).ready(function() {
-
-
-
-		$('#after-print').hide();
-		window.print();
-		$('input[name=action]').length == 0 ? CheckAfterPackingListPrintActivities('print') : $('#after-print').show();
-
-
-
-		});
-	</script>
 </html>
