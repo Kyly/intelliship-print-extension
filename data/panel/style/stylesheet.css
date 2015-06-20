@@ -1,0 +1,48 @@
+body, html {
+    overflow-x: hidden;
+}
+
+.banner {
+    /*margin-bottom: 2em;*/
+}
+.banner img {
+    background-color: lightgray;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.print-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+ul.print-list li {
+    border-bottom: 1px solid #90bade;
+    margin: 0;
+    display: block;
+    padding: 5px 5px 5px 0.5em;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+}
+
+.options-list {
+
+}
+
+.print-item {
+    border-left: 10px solid #1958b7;
+    border-right: 10px solid #508fc4;
+    background-color: #2175bc;
+    color: #fff;
+}
