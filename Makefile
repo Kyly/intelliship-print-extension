@@ -1,4 +1,4 @@
-# Builds exstension with jsprintsetup included in resultig xpi document
+# Builds extension with jsprintsetup included in resulting xpi document
 
 all:
 	jpm xpi
